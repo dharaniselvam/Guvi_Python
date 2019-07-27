@@ -1,0 +1,10 @@
+from array import *
+arr = array('i',[1,2,3,4,5])
+n = len(arr)
+temp=0
+for i in range(n):
+    for j in range(i):
+        temp=arr[i]
+        arr[i]=arr[j]
+        arr[j]=temp
+print(arr)
