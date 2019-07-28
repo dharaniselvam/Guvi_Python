@@ -1,0 +1,13 @@
+N = int(input())
+temp = 0
+rem = 0
+sum = 0
+temp = N
+while N!=0:
+    rem = N%10
+    sum = (sum*10)+rem
+    N = N//10
+if temp==sum:
+    print("Yes")
+else:
+    print("No")
