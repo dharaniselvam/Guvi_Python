@@ -1,0 +1,4 @@
+N = int(input())
+k = int (input())
+e = N**k
+print(e)
