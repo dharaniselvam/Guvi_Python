@@ -1,0 +1,11 @@
+from array import *
+N = int(input())
+K = int(input())
+sum=0
+arr = array('i',[])
+for i in range(0,N):
+    i=int(input())
+    arr.append(i)
+for i in range(0,K):
+    sum=sum+arr[i]
+print(sum)
