@@ -1,0 +1,7 @@
+a = str(input(""))
+c = a.lower()
+ch = c[0]
+if(ch>="a" and ch<="z"):
+    print("Alphabet")
+else:
+    print("No")
