@@ -1,0 +1,9 @@
+N = int(input())
+A = int(input())
+D = int(input())
+x = 0
+sum = 0
+for i in range(1,N+1):
+    sum=sum+(A+(x*D))
+    x+=1
+print(sum)
