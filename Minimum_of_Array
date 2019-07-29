@@ -1,0 +1,7 @@
+from array import *
+N = int(input())
+arr=array('i',[])
+for x in range(0,N):
+    x = int(input())
+    arr.append(x)
+print(min(arr))
