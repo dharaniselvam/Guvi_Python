@@ -1,0 +1,7 @@
+N = input()
+if N>='a' and N<='z':
+    print("No")
+elif N>='A' and N<='Z':
+    print("No")
+else:
+    print("Yes")
