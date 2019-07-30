@@ -1,0 +1,9 @@
+N = int(input())
+a = []
+value = 0
+for i in range(N):
+    i = int(input())
+    a.append(i)
+for i in range(N):
+    value = a[i]
+    print(value,"  ",i)
