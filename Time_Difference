@@ -1,0 +1,9 @@
+hour1 = int(input())
+minute1 = int(input())
+hour2 = int(input())
+minute2 = int(input())
+hour = 0
+minute = 0
+hour = abs(hour1-hour2)
+minute = abs(minute1-minute2)
+print(hour," ",minute)
