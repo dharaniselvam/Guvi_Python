@@ -1,0 +1,8 @@
+N = int(input())
+a = []
+for i in range(N):
+    i = int(input())
+    a.append(i)
+a.sort()
+median = a[(N-1)//2]
+print(median)
