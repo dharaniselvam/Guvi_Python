@@ -1,0 +1,5 @@
+Minutes = int(input())
+Hours = 0
+Hours = Minutes//60
+Minutes = Minutes%60
+print(Hours," ",Minutes)
