@@ -1,0 +1,11 @@
+N = int(input())
+arr = []
+for i in range(N):
+    i = int(input())
+    arr.append(i)
+sum = 0
+average = 0
+for i in range(N):
+    sum = sum+arr[i]
+average = sum//N
+print(average)
