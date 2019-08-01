@@ -1,0 +1,5 @@
+arr = []
+for i in range(0,10):
+    i = int(input())
+    arr.append(i)
+print(max(arr))
