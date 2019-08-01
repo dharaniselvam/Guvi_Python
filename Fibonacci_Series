@@ -1,0 +1,8 @@
+N = int(input())
+a = 0
+b = 1
+for i in range(0,N):
+    sum = a+b
+    a = b
+    b = sum
+    print(a," ")
