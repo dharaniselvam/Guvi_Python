@@ -1,0 +1,15 @@
+S = input()
+s = list(S)
+def digit():
+    for i in range(len(s)):
+        if s[i].isdigit()==True:
+            return True
+def alpha():
+    for i in range(len(s)):
+        if s[i].isdigit()==True:
+            return True
+
+if alpha()==True and digit()==True:
+    print("yes")
+else:
+    print("no")
