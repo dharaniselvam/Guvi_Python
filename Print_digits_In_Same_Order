@@ -1,5 +1,3 @@
 N = input()
-arr = []
-for i in range(1,len(N)+1):
-    arr.append(i)
-print(*arr)
+arr = list(N)
+print(*arr) 
