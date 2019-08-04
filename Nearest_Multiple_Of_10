@@ -1,0 +1,8 @@
+N = int(input())
+rem = N%10
+if rem == 0:
+    print(N)
+else:
+    rem = 10-rem
+    N = N+rem
+    print(N)
