@@ -1,0 +1,9 @@
+N = int(input())
+M = int(input())
+product = N*M 
+for i in range(product):
+    if product==i*i:
+        print("yes")
+        break
+else:
+    print("no")
