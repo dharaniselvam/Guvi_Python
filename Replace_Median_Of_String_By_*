@@ -1,0 +1,11 @@
+S = input()
+s = list(S)
+for i in range(len(s)):
+    if len(s)%2!=0:
+        median = len(s)//2
+        s[median]='*'
+    else:
+        median = len(s)//2
+        s[median-1]='*'
+        s[median]='*'
+print(*s)
