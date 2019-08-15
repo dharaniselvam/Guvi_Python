@@ -1,0 +1,12 @@
+N = int(input())
+K = int(input())
+arr = []
+for i in range(N):
+    i = int(input())
+    arr.append(i)
+count = 0
+for i in range(len(arr)):
+    if arr[i]%2!=0:
+        count = count+1
+        if count==K:
+            print(arr[i])
