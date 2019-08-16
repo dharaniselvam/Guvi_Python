@@ -1,0 +1,16 @@
+S1 = input()
+S2 = input()
+s1 = list(S1)
+s2 = list(S2)
+count1 = 0
+count2 = 0
+for i in range(len(s1)-1):
+    if s1[i]!=s1[i+1]:
+        count1 = count1+1
+for i in range(len(s2)-1):
+    if s2[i]!=s2[i+1]:
+        count2 = count2+1
+if count1 ==count2:
+    print("yes")
+else:
+    print("no")    
